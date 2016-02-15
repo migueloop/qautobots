@@ -1,0 +1,13 @@
+{
+    "is_service": false,
+    "github_organization": "",
+    "infrastructure_services": [],
+    "version": 1,
+    "timeout": 15,
+    "success_notifiers": {
+        "jabber": {
+            "groups": []
+        }
+    },
+    "name": "qautobots"
+}

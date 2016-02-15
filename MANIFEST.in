@@ -1,0 +1,6 @@
+include *.py
+include requirements.txt
+include RELEASE-VERSION
+graft tests
+global-exclude __pycache__
+global-exclude *.pyc

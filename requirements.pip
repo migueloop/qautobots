@@ -1,0 +1,10 @@
+# Add your dependencies here.
+nose-exclude>=0.1.8
+requests==2.2.1
+selenium>=2.45.0
+-r requirements.txt
+nosy
+pep8
+pep257
+pylint
+unittest2
