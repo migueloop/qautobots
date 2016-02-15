@@ -8,7 +8,7 @@ python driven selenium UI tests
 
 Clone this and start coding.
 
-    $ git clone <REPO LINK>
+    $ git clone https://github.com/chasepilon/qautobots.git
     $ cd qautobots
     $ make cybertron
 
@@ -19,7 +19,7 @@ To run unit tests on QAutobots run:
 ## Directory structure and standard
 
 - **qautobots**: parent directory for selenium tests
-    - **components**: contains component page object (any page object that exists on more than one page [i.e. - notification bar])
+    - **components**: contains component page object (any page object that exists on more than one page)
   	- **fixtures**: classes that help put an account or app in a particular "state"
   	- **framework**: any classes that extends selenium webdriver
   	- **pages**: page objects. See [Page Object Pattern](https://code.google.com/p/selenium/wiki/PageObjects)
