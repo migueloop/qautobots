@@ -67,7 +67,7 @@ Default: `qautobots/configuration/default.json`
 * `application`: configuration for url to test
 * `selenium`: configuration needed to set up selenium tests (aka `DESIRED CAPABILITIES`)
 	* `remote`: ability to use webdriver remote (selenium grid) or use local browser.  default: `false`
-	* `browser`: browser type for testing `FIREFOX`, `CHROME` or `ie`.  defualt: `FIREFOX`
+	* `browser`: browser type for testing `FIREFOX`, `CHROME` or `ie`.  default: `FIREFOX`
 	* `version`: browser version. default: `ANY`
 	* `platform`: Operating system of the test platform. default: `MAC`
 	* `hub`: configuration of selenium grid hub
